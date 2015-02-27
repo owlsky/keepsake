@@ -1,0 +1,55 @@
+// Service Icons
+
+@import "icons/service/*.png";
+
+.responsive {
+  display: inline-block;
+  width: service-sprite-width(responsive);
+  height: service-sprite-height(responsive);
+  @include service-sprite(responsive);
+}
+.tv {
+  display: inline-block;
+  width: service-sprite-width(tv);
+  height: service-sprite-height(tv);
+  @include service-sprite(tv);
+}
+.print {
+  display: inline-block;
+  width: service-sprite-width(print);
+  height: service-sprite-height(print);
+  @include service-sprite(print);
+}
+.love {
+  display: inline-block;
+  width: service-sprite-width(love);
+  height: service-sprite-height(love);
+  @include service-sprite(love);
+}
+
+// Social Media Icons
+
+@import "icons/social/*.png";
+
+.social-media {
+
+  .rss { @include social-sprite(rss); }
+  .facebook { @include social-sprite(facebook); }
+  .twitter { @include social-sprite(twitter); }
+  .dribbble { @include social-sprite(dribbble); }
+  .pinterest { @include social-sprite(pinterest); }
+
+}
+
+.social-media {
+  margin-bottom: 0;
+  li a {
+    display: block;
+    span {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      vertical-align: top;
+    }
+  }
+}

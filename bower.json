@@ -1,0 +1,8 @@
+{
+  "name": "Keepsake",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": "latest",
+    "jquery": "1.11.2"
+  }
+}
