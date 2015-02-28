@@ -9,6 +9,19 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
 }
 
+/* line 1, ../sass/base/_headings.scss */
+.section-header {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+/* line 6, ../sass/base/_headings.scss */
+.section-header:after {
+  color: #ef5f60;
+  content: ' --';
+}
+
 /* line 1, ../sass/layout/_header.scss */
 .navbar {
   margin-bottom: 0;
@@ -160,7 +173,11 @@ h1, h2, h3, h4 {
 
 /* line 1, ../sass/modules/_media.scss */
 .media {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+/* line 3, ../sass/modules/_media.scss */
+.media-left {
+  padding-right: 20px;
 }
 
 /* line 3, ../sass/theme/_theme.scss */
@@ -192,4 +209,19 @@ h1, h2, h3, h4 {
   padding: 66px 0;
   color: #bdbdbd;
   background-color: #2d2d30;
+}
+
+/* line 27, ../sass/theme/_theme.scss */
+.mt1 {
+  margin-top: 20px;
+}
+
+/* line 30, ../sass/theme/_theme.scss */
+.mb1 {
+  margin-bottom: 20px;
+}
+
+/* line 33, ../sass/theme/_theme.scss */
+.pb1 {
+  padding-bottom: 20px;
 }

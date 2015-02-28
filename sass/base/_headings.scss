@@ -1,0 +1,10 @@
+.section-header {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  text-transform: uppercase;
+  &:after {
+    color: #ef5f60;
+    content: ' --';
+  }
+}
