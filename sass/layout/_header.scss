@@ -1,0 +1,38 @@
+.navbar {
+  margin-bottom: 0;
+  &-brand {
+    height: 44px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: right;
+  }
+  .navbar-nav > li > a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  }
+}
+
+.t-header {
+  @media (min-width: 768px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  @media (min-width: 992px) {
+    padding-top: 75px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-brand {
+    margin-top: 3px;
+  }
+}

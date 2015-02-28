@@ -1,0 +1,14 @@
+.thumbnail {
+  padding: 0;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 0;
+  img {
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+    opacity: .85;
+  }
+  &:hover img {
+    opacity: 1;
+  }
+}

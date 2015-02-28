@@ -1,7 +1,11 @@
 // Base
-@import "base/utilities";
+@import "base/variables";
 @import "base/base";
+// Layout
+@import "layout/header";
 // Modules
 @import "modules/icon";
+@import "modules/thumbnail";
+@import "modules/media";
 // Theme
 @import "theme/theme";
